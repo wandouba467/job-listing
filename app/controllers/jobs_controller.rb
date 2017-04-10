@@ -37,13 +37,12 @@ class JobsController < ApplicationController
   end
 
   def destroy
-    @job = Job.find([:id])
+    @job = Job.find(params[:id])
     @job.destroy
     redirect_to jobs_path alert: "Job deleted"
-  else
-    render :edit
   end
 
+private
 
   def job_params
     params.require(:job).permit(:title, :description)
