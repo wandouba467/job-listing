@@ -1,42 +1,63 @@
-  <div class="jumbotron">
-    <h1 class="title">豌豆网</h1>
-    <p class="slogan">豌豆网是一个根据需求为您提供各种工作机会的求职网站。
-    <br>
-    我们希望借由这个网站，能让大家在内蒙找到优质的工作。
-    <br>
-     凭借自己的努力与能力，成就自己
-    </p>
-    <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
-  </div>
+<div class="col-md-12">
+   <div class="row box">
+     <div class="box-inner col-md-6 col-md-offset-3">
+       <h1 class="title">豌豆招聘</h1>
+       <p class="slogan">我们为你准备了更多的选择
+         <br>
+         我们为你准备了更优质的工作
 
+       </p>
+       <p class="lead">
+         <%= link_to '马上应征' , jobs_path, class: 'btn btn-danger' %>
+       </p>
+     </div>
+   </div>
+ </div>
 
-  <section id="company">
-    <div class = "container-fluid">
-      <div class="row">
-        <div class="col-sm-4 ">
-          <div class="thumbnail">
-            <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-31.png" alt="search" class = "img-thumbnail">
-            <div class="caption">
-              <h3>内蒙古鄂尔多斯康巴什</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 ">
-          <div class="thumbnail">
-            <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-48.png" alt="bid" class = "img-thumbnail">
-            <div class="caption">
-              <h3>wandouba467@gmail.com</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 ">
-          <div class="thumbnail">
-            <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-44-00.png" alt="heart" class = "img-thumbnail">
-            <div class="caption">
-              <h3>0477-8312345</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ <div class="content-section-a">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-5 col-sm-6">
+         <hr class="section-heading-spacer">
+         <div class="clearfix"></div>
+         <h2 class="section-heading">你不必在咖啡馆苦苦的等待中<br>寻求理想的工作</h2>
+
+       </div>
+       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+         <%= image_tag 'pic-1.jpg', class: 'img-responsive' %>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="content-section-b">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+         <hr class="section-heading-spacer">
+         <div class="clearfix"></div>
+         <h2 class="section-heading">你不必再为自己的前程琢磨不定<br>担心找不到理想的团队</h2>
+
+       </div>
+       <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+         <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="content-section-a">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-5 col-sm-6">
+         <hr class="section-heading-spacer">
+         <div class="clearfix"></div>
+         <h2 class="section-heading">你不必在喧嚣的城市中迷茫<br>找不到人生的方向</h2>
+
+       </div>
+       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+         <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+       </div>
+     </div>
+   </div>
+ </div>
